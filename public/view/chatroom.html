@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>chatroom</title>
+  <link rel="stylesheet" href="../css/chatroom.css">
+</head>
+
+<body>
+  <header>
+    <h2>chatroom</h2>
+    <button id="quitChat" class="quitChat">退出登录</button>
+  </header>
+  <main>
+    <ul id="messages"></ul>
+    <form id="msgForm" action="">
+      <input id="inputBox" autocomplete="off" /><button id="sendMsg" type="button">Send</button>
+    </form>
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="../js/chatroom.js"></script>
+</body>
+
+</html>

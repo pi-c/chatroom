@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background: -webkit-linear-gradient(left, #6D3981, #BE2B5C);
+  background: -moz-linear-gradient(right, #6D3981, #BE2B5C);
+  background: -o-linear-gradient(right, #6D3981, #BE2B5C);
+  background: linear-gradient(to right, #6D3981, #BE2B5C);
+}
+
+h2 {
+  color: #fff;
+}
+
+.quitChat {
+  float: right;
+}
+
+main {
+  width: 100%;
+  height: 90%;
+}
+
+
+
+form {
+  width: 100%;
+  height: 10%;
+  background: #6D3981;
+  bottom: 0;
+}
+
+form input {
+  border: 0;
+  padding: 15;
+  width: 90%;
+  height: 90%;
+  margin-right: .5%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+form button {
+  width: 9%;
+  height: 90%;
+  background: #81bed1;
+  border: none;
+  padding: 20;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+form button:hover {
+  background: rgb(130, 224, 255);
+  cursor: pointer;
+}
+
+#messages {
+  list-style-type: none;
+  border: 1px solid black;
+  height: 90%;
+  overflow: scroll;
+}
+
+#messages li {
+  padding: 5px 10px;
+  color: green;
+  font-weight: 600;
+}
+
+p {
+  font: 16px Helvetica, Arial;
+  color: #333;
+  font-weight: 400;
+}
+
+span {
+  font: 12px Helvetica, Arial;
+  color: rgba(170, 170, 170, .7);
+}
